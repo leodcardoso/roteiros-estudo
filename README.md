@@ -23,32 +23,32 @@ Além disso, professores poderão preencher um formulário para solicitar novos 
 
 ### 1. Estrutura e configuração
 
-- [ ]  Projeto desenvolvido utilizando Next.js.
-- [ ]  Utilização do App Router.
-- [ ]  Aplicação sem back-end próprio.
-- [ ]  Aplicação sem banco de dados.
-- [ ]  Dados do domínio armazenados em arquivos JSON.
-- [ ]  Configuração para exportação estática (`output: 'export'`).
-- [ ]  Repositório Git público.
+- [X]  Projeto desenvolvido utilizando Next.js.
+- [X]  Utilização do App Router.
+- [X]  Aplicação sem back-end próprio.
+- [X]  Aplicação sem banco de dados.
+- [X]  Dados do domínio armazenados em arquivos JSON.
+- [X]  Configuração para exportação estática (`output: 'export'`).
+- [X]  Repositório Git público.
 
 ### 2. Modelagem dos dados
 
 - [ ]  Criar entidade Roteiro.
 - [ ]  Criar entidade Professor.
 - [ ]  Relacionar os roteiros aos professores responsáveis pela revisão.
-- [ ]  Cadastrar pelo menos 6 roteiros.
+- [X]  Cadastrar pelo menos 6 roteiros.
 - [ ]  Cada roteiro deve possuir:
-  - [ ]  Identificador único.
-  - [ ]  Título.
-  - [ ]  Disciplina.
-  - [ ]  Ano escolar.
-  - [ ]  Tema.
-  - [ ]  Explicação simplificada.
-  - [ ]  Questões de fixação.
-  - [ ]  Respostas das questões.
-  - [ ]  Tempo estimado de estudo.
-  - [ ]  Identificação de conteúdo gerado por IA.
-  - [ ]  Identificação do professor revisor.
+  - [X]  Identificador único.
+  - [X]  Título.
+  - [X]  Disciplina.
+  - [X]  Ano escolar.
+  - [X]  Tema.
+  - [X]  Explicação simplificada.
+  - [X]  Questões de fixação.
+  - [X]  Respostas das questões.
+  - [X]  Tempo estimado de estudo.
+  - [X]  Identificação de conteúdo gerado por IA.
+  - [X]  Identificação do professor revisor.
 - [ ]  Cada professor deve possuir:
   - [ ]  Nome.
   - [ ]  Disciplina.
@@ -58,8 +58,8 @@ Além disso, professores poderão preencher um formulário para solicitar novos 
 
 - [ ]  Criar página inicial.
 - [ ]  Criar listagem de roteiros.
-- [ ]  Criar página de detalhes de um roteiro.
-- [ ]  Criar formulário de solicitação de novos roteiros.
+- [X]  Criar página de detalhes de um roteiro.
+- [X]  Criar formulário de solicitação de novos roteiros.
 - [ ]  Criar pelo menos 5 componentes React próprios, além das páginas.
 - [ ]  Os componentes devem receber dados através de props.
 
@@ -81,13 +81,13 @@ Além disso, professores poderão preencher um formulário para solicitar novos 
 
 ### 5. Consumo da API externa
 
-- [ ]  Escolher uma API pública, gratuita e sem chave de acesso.
-- [ ]  Consumir a API para obter textos de apoio relacionados aos temas dos roteiros.
+- [X]  Escolher uma API pública, gratuita e sem chave de acesso.
+- [X]  Consumir a API para obter textos de apoio relacionados aos temas dos roteiros.
 - [ ]  Implementar estado de carregamento.
 - [ ]  Implementar tratamento de erros.
-- [ ]  Implementar exibição dos dados quando a requisição for bem-sucedida.
-- [ ]  Garantir que uma falha na API não impeça a utilização do restante da aplicação.
-- [ ]  Garantir que o roteiro continue aparecendo mesmo quando o texto externo não carregar.
+- [X]  Implementar exibição dos dados quando a requisição for bem-sucedida.
+- [X]  Garantir que uma falha na API não impeça a utilização do restante da aplicação.
+- [X]  Garantir que o roteiro continue aparecendo mesmo quando o texto externo não carregar.
 
 **API escolhida:** A definir.
 
@@ -104,24 +104,24 @@ Criar um formulário controlado para que professores possam solicitar novos rote
 
 **Campos obrigatórios:**
 
-- [ ]  Nome do professor.
-- [ ]  E-mail institucional.
-- [ ]  Disciplina.
-- [ ]  Ano escolar.
-- [ ]  Tema.
-- [ ]  Quantidade de questões.
+- [X]  Nome do professor.
+- [X]  E-mail institucional.
+- [X]  Disciplina.
+- [X]  Ano escolar.
+- [X]  Tema.
+- [X]  Quantidade de questões.
 - [ ]  Data prevista de utilização.
 
 **Regras de validação:**
 
-- [ ]  Todos os campos devem ser preenchidos.
-- [ ]  O e-mail deve terminar com `@escola.educa.gov.br`.
-- [ ]  A quantidade de questões deve ser no mínimo 3.
-- [ ]  A quantidade de questões deve ser no máximo 10.
-- [ ]  A data de utilização deve ter pelo menos 7 dias de antecedência.
+- [X]  Todos os campos devem ser preenchidos.
+- [X]  O e-mail deve terminar com `@escola.educa.gov.br`.
+- [X]  A quantidade de questões deve ser no mínimo 3.
+- [X]  A quantidade de questões deve ser no máximo 10.
+- [X]  A data de utilização deve ter pelo menos 7 dias de antecedência.
 - [ ]  Exibir mensagens de erro para campos inválidos.
-- [ ]  Exibir feedback após o envio.
-- [ ]  Não enviar os dados para um servidor.
+- [X]  Exibir feedback após o envio.
+- [X]  Não enviar os dados para um servidor.
 
 ### 8. Testes e funcionamento
 
@@ -146,14 +146,14 @@ Período de desenvolvimento: **05/11/2026 a 14/11/2026**.
 | Data  | Atividade                                             | Status |
 | ----- | ----------------------------------------------------- | ------ |
 | 05/11 | Análise do problema e definição da solução       | [X]    |
-| 06/11 | Planejamento e protótipo das interfaces              | ⬜     |
-| 07/11 | Criação do repositório e configuração do Next.js | ⬜     |
-| 08/11 | Modelagem dos dados JSON                              | ⬜     |
-| 09/11 | Desenvolvimento dos componentes e páginas            | ⬜     |
-| 10/11 | Implementação das rotas e navegação               | ⬜     |
-| 11/11 | Integração com API externa                          | ⬜     |
-| 12/11 | Desenvolvimento e validação do formulário          | ⬜     |
-| 13/11 | Testes, correções e exportação estática          | ⬜     |
+| 06/11 | Planejamento e protótipo das interfaces              | [X]    |
+| 07/11 | Criação do repositório e configuração do Next.js | [X]    |
+| 08/11 | Modelagem dos dados JSON                              | [X]    |
+| 09/11 | Desenvolvimento dos componentes e páginas            | [X]    |
+| 10/11 | Implementação das rotas e navegação               | [X]    |
+| 11/11 | Integração com API externa                          | [X]    |
+| 12/11 | Desenvolvimento e validação do formulário          | [X]    |
+| 13/11 | Testes, correções e exportação estática          | [X]    |
 | 14/11 | Relatório, revisão final e entrega                  | ⬜     |
 
 ## 📄 Entregáveis
