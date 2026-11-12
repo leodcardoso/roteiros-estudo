@@ -144,7 +144,7 @@ Período de desenvolvimento: **05/11/2026 a 14/11/2026**.
 
 | Data | Atividade | Status |
 |---|---|---|
-| 05/11 | Análise do problema e definição da solução | ⬜ |
+| 05/11 | Análise do problema e definição da solução | [X] |
 | 06/11 | Planejamento e protótipo das interfaces | ⬜ |
 | 07/11 | Criação do repositório e configuração do Next.js | ⬜ |
 | 08/11 | Modelagem dos dados JSON | ⬜ |
