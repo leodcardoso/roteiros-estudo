@@ -1,0 +1,20 @@
+[
+  {
+    "id": "prof-001",
+    "nome": "Ana Oliveira",
+    "disciplina": "Matemática",
+    "escola": "Escola Municipal Paulo Freire"
+  },
+  {
+    "id": "prof-002",
+    "nome": "Carlos Mendes",
+    "disciplina": "Português",
+    "escola": "Escola Municipal Monteiro Lobato"
+  },
+  {
+    "id": "prof-003",
+    "nome": "Mariana Costa",
+    "disciplina": "Ciências",
+    "escola": "Escola Municipal Paulo Freire"
+  }
+]

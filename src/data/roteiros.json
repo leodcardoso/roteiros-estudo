@@ -1,0 +1,158 @@
+[
+  {
+    "id": "mat-001",
+    "titulo": "Introdução às Frações",
+    "disciplinaId": "matematica",
+    "ano": 6,
+    "tema": "Frações e suas representações",
+    "explicacao": "Frações representam partes de um todo. O número de cima indica quantas partes estamos considerando, enquanto o número de baixo indica em quantas partes o todo foi dividido.",
+    "tempoEstimadoMinutos": 30,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-001",
+    "questoes": [
+      {
+        "pergunta": "O que representa o denominador de uma fração?",
+        "resposta": "Representa em quantas partes iguais o todo foi dividido."
+      },
+      {
+        "pergunta": "Qual fração representa metade de um inteiro?",
+        "resposta": "1/2."
+      },
+      {
+        "pergunta": "Na fração 3/4, qual é o numerador?",
+        "resposta": "O número 3."
+      }
+    ]
+  },
+  {
+    "id": "mat-002",
+    "titulo": "Equações do Primeiro Grau",
+    "disciplinaId": "matematica",
+    "ano": 7,
+    "tema": "Introdução às equações",
+    "explicacao": "Uma equação é uma igualdade que possui um valor desconhecido. Resolver uma equação significa encontrar o valor que torna os dois lados iguais.",
+    "tempoEstimadoMinutos": 35,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-001",
+    "questoes": [
+      {
+        "pergunta": "Qual é o valor de x na equação x + 5 = 12?",
+        "resposta": "x = 7."
+      },
+      {
+        "pergunta": "O que é uma incógnita?",
+        "resposta": "É um valor desconhecido representado por uma letra."
+      },
+      {
+        "pergunta": "Qual é o valor de x em 2x = 10?",
+        "resposta": "x = 5."
+      }
+    ]
+  },
+  {
+    "id": "port-001",
+    "titulo": "Classes Gramaticais",
+    "disciplinaId": "portugues",
+    "ano": 6,
+    "tema": "Substantivos, adjetivos e verbos",
+    "explicacao": "As classes gramaticais organizam as palavras de acordo com sua função. Substantivos dão nomes, adjetivos caracterizam e verbos indicam ações ou estados.",
+    "tempoEstimadoMinutos": 25,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-002",
+    "questoes": [
+      {
+        "pergunta": "O que é um substantivo?",
+        "resposta": "É a palavra que dá nome a seres, objetos, lugares e sentimentos."
+      },
+      {
+        "pergunta": "Qual é a função do adjetivo?",
+        "resposta": "Caracterizar ou atribuir uma qualidade ao substantivo."
+      },
+      {
+        "pergunta": "Qual classe gramatical indica uma ação?",
+        "resposta": "O verbo."
+      }
+    ]
+  },
+  {
+    "id": "port-002",
+    "titulo": "Interpretação de Texto",
+    "disciplinaId": "portugues",
+    "ano": 8,
+    "tema": "Compreensão e interpretação",
+    "explicacao": "Interpretar um texto significa compreender suas informações, identificar a ideia principal e perceber mensagens que podem estar implícitas.",
+    "tempoEstimadoMinutos": 30,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-002",
+    "questoes": [
+      {
+        "pergunta": "O que é a ideia principal de um texto?",
+        "resposta": "É a informação central que o texto procura transmitir."
+      },
+      {
+        "pergunta": "O que significa uma informação implícita?",
+        "resposta": "É uma informação que não está declarada diretamente, mas pode ser compreendida pelo contexto."
+      },
+      {
+        "pergunta": "O que devemos observar para interpretar um texto?",
+        "resposta": "O contexto, as informações apresentadas e a intenção do autor."
+      }
+    ]
+  },
+  {
+    "id": "cien-001",
+    "titulo": "Sistema Solar",
+    "disciplinaId": "ciencias",
+    "ano": 7,
+    "tema": "Planetas e o Sol",
+    "explicacao": "O Sistema Solar é formado pelo Sol e pelos corpos celestes que orbitam ao seu redor, incluindo os oito planetas, luas, asteroides e cometas.",
+    "tempoEstimadoMinutos": 30,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-003",
+    "questoes": [
+      {
+        "pergunta": "Qual é a estrela central do Sistema Solar?",
+        "resposta": "O Sol."
+      },
+      {
+        "pergunta": "Quantos planetas existem no Sistema Solar?",
+        "resposta": "Oito planetas."
+      },
+      {
+        "pergunta": "Qual é o planeta mais próximo do Sol?",
+        "resposta": "Mercúrio."
+      }
+    ]
+  },
+  {
+    "id": "hist-001",
+    "titulo": "Brasil Colonial",
+    "disciplinaId": "historia",
+    "ano": 8,
+    "tema": "Colonização portuguesa",
+    "explicacao": "O período colonial brasileiro começou com a chegada dos portugueses em 1500 e foi marcado pela exploração econômica, pela escravização de povos indígenas e africanos e pela formação da sociedade colonial.",
+    "tempoEstimadoMinutos": 40,
+    "geradoPorIA": true,
+    "revisado": true,
+    "professorId": "prof-002",
+    "questoes": [
+      {
+        "pergunta": "Em que ano os portugueses chegaram ao Brasil?",
+        "resposta": "Em 1500."
+      },
+      {
+        "pergunta": "Qual era um dos principais objetivos da colonização?",
+        "resposta": "Explorar os recursos naturais e gerar riquezas para Portugal."
+      },
+      {
+        "pergunta": "Qual produto teve grande importância econômica no início da colonização?",
+        "resposta": "A cana-de-açúcar."
+      }
+    ]
+  }
+]
