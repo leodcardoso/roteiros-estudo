@@ -1,6 +1,8 @@
 
 import { getRoteiros, getDisciplinas } from "@/lib/roteiros";
 import RoteirosList from "@/components/RoteirosList";
+import Cabecalho from "@/components/Cabecalho";
+
 
 export default function Home() {
   const roteiros = getRoteiros();
@@ -8,15 +10,7 @@ export default function Home() {
 
   return (
     <>
-      <header className="cabecalho">
-        <div className="cabecalho-conteudo">
-          <LinkLogo />
-          <nav>
-            <a href="/">Início</a>
-            <a href="/professores">Área do professor</a>
-          </nav>
-        </div>
-      </header>
+      <Cabecalho paginaAtiva="inicio" />
 
       <main>
         <section className="apresentacao">
@@ -36,13 +30,5 @@ export default function Home() {
         />
       </main>
     </>
-  );
-}
-
-function LinkLogo() {
-  return (
-    <a href="/" className="logo">
-      Roteiros<span> de Estudo</span>
-    </a>
   );
 }

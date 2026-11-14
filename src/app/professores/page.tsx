@@ -1,9 +1,12 @@
 
 import FormularioProfessor from "@/components/FormularioProfessor";
+import Cabecalho from "@/components/Cabecalho";
 
 export default function ProfessoresPage() {
   return (
+    
     <main>
+      <Cabecalho paginaAtiva="professores" />
       <section className="apresentacao">
         <span className="apresentacao-etiqueta">
           Área do professor

@@ -1,3 +1,4 @@
+
 [
   {
     "id": "prof-001",
@@ -16,5 +17,11 @@
     "nome": "Mariana Costa",
     "disciplina": "Ciências",
     "escola": "Escola Municipal Paulo Freire"
+  },
+  {
+    "id": "prof-004",
+    "nome": "Roberto Almeida",
+    "disciplina": "História",
+    "escola": "Escola Municipal Monteiro Lobato"
   }
 ]

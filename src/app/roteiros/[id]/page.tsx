@@ -7,6 +7,9 @@ import {
 } from "@/lib/roteiros";
 
 import ResumoWikipedia from "@/components/ResumoWikipedia";
+import Cabecalho from "@/components/Cabecalho";
+import QuestaoCard from "@/components/QuestaoCard";
+
 
 // Gera uma página estática para cada roteiro
 export function generateStaticParams() {
@@ -37,17 +40,7 @@ export default async function RoteiroPage({ params }: PageProps) {
   return (
     
     <main>
-        <header className="cabecalho">
-  <div className="cabecalho-conteudo">
-    <a href="/" className="logo">
-      Roteiros<span> de Estudo</span>
-    </a>
-    <nav>
-      <a href="/">Início</a>
-      <a href="/professores">Área do professor</a>
-    </nav>
-  </div>
-</header>
+        <Cabecalho paginaAtiva="inicio" />
 
 
 
@@ -76,38 +69,38 @@ export default async function RoteiroPage({ params }: PageProps) {
         <h2>Questões de fixação</h2>
 
         {roteiro.questoes.map((questao, index) => (
-          <article key={index}>
-            <h3>
-              Questão {index + 1}
-            </h3>
-
-            <p>{questao.pergunta}</p>
-
-            <details>
-              <summary>Ver resposta</summary>
-              <p>{questao.resposta}</p>
-            </details>
-          </article>
-        ))}
+  <QuestaoCard
+    key={index}
+    pergunta={questao.pergunta}
+    resposta={questao.resposta}
+    numero={index + 1}
+  />
+))}
       </section>
 
-      <section>
-        <h2>Sobre este material</h2>
+      
+<section>
+  <h2>Sobre este material</h2>
 
-        <p>Material gerado por inteligência artificial.</p>
+  {roteiro.geradoPorIA && (
+    <p>Material gerado por inteligência artificial.</p>
+  )}
 
-        <p>
-          Revisado por: {roteiro.professor.nome}
-        </p>
+  {roteiro.revisado && (
+    <p>
+      Revisado por: {roteiro.professor.nome}
+    </p>
+  )}
 
-        <p>
-          Disciplina: {roteiro.professor.disciplina}
-        </p>
+  <p>
+    Disciplina: {roteiro.professor.disciplina}
+  </p>
 
-        <p>
-          Escola: {roteiro.professor.escola}
-        </p>
-      </section>
+  <p>
+    Escola: {roteiro.professor.escola}
+  </p>
+</section>
+
 
       <ResumoWikipedia tema={roteiro.tema} />
     </main>
