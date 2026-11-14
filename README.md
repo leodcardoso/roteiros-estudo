@@ -38,7 +38,7 @@ Além disso, professores poderão preencher um formulário para solicitar novos 
 - [ ]  Relacionar os roteiros aos professores responsáveis pela revisão.
 - [X]  Cadastrar pelo menos 6 roteiros.
 - [ ]  Cada roteiro deve possuir:
-  - [X]  Identificador único.
+  - [x]  Identificador único.
   - [X]  Título.
   - [X]  Disciplina.
   - [X]  Ano escolar.
